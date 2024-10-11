@@ -1,0 +1,42 @@
+body{
+    font-family: "Titillium Web", sans-serif;;
+}
+.add-btn{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.todoInput{
+    height: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.todoDate{
+    height: 42px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+.todoDiv{
+    display: grid;
+    grid-template-columns: 200px 175px 100px;
+    row-gap: 10px;
+    align-items: center;
+}
+.todoFunctions{
+    display: grid;
+    grid-template-columns: 200px 175px 100px;
+    margin-bottom: 20px;
+}
+.delete-btn{
+    width: 80px;
+    height: 40px;
+    background-color:firebrick;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
